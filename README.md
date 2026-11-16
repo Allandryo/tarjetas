@@ -17,3 +17,5 @@ Se ha diseñado y replicado una interfaz gráfica compuesta por 3 tarjetas (`Car
 1. **Principio DRY (Don't Repeat Yourself)**: Parametrizar la imagen y los textos en el composable evita la duplicación de código y permite que cada tarjeta use una foto y datos propios de forma limpia.
 2. **Modularidad y escalabilidad**: Si se requiere añadir más personas o cambiar el diseño visual, solo se modifica el componente `Tarjeta` en un único lugar sin afectar al resto de la aplicación.
 3. **Buenas prácticas en Compose**: El uso de `DrawableResource` aprovecha el sistema oficial de recursos de Compose Multiplatform, garantizando compatibilidad multiplataforma y tipado seguro.
+
+.\gradlew.bat run

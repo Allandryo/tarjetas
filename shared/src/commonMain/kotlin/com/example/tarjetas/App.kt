@@ -28,6 +28,8 @@ import tarjetas.shared.generated.resources.foto1
 import tarjetas.shared.generated.resources.foto2
 import tarjetas.shared.generated.resources.foto3
 
+
+//Parte 1
 @Composable
 fun App() {
     MaterialTheme {
