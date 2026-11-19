@@ -92,7 +92,7 @@ fun Tarjeta(
                 modifier = Modifier
                     .size(60.dp)
                     .clip(CircleShape)
-                    .border(2.dp, Color(0xFF1F7A63), CircleShape)
+                    .border(2.dp, Color(0xFF000000), CircleShape)
             )
 
             Spacer(modifier = Modifier.width(16.dp))
